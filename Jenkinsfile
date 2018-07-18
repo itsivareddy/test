@@ -30,7 +30,7 @@ pipeline
         success
         {
              input message: 'Waiting for approval', submitter: 'samba'
-        sh 'scp /var/lib/jenkins/workspace/pipeline/webapp/target/webapp.war /var/lib/tomcat7/webapps/prodenv.war'
+        sh 'scp /var/lib/jenkins/workspace/pipeline/webapp/target/webapp.war /var/lib/tomcat7/webapps/prodenv1.war'
         }
         failure
         {
